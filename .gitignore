@@ -1,0 +1,79 @@
+# ==========================================
+# PYTHON / BACKEND
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.env
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,c
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# pyenv
+#   A line allowing a local .python-version file to be committed is shown below;
+#   to commit .python-version for use in environments without pyenv, uncomment:
+# .python-version
+
+# Celery / Redis state
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Local uploads / data storage
+uploads/
+datasets/
+models/*.pkl
+models/*.plk
