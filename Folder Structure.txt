@@ -1,0 +1,69 @@
+AI-Resume-Intelligence/
+│
+├── backend/
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── config.py
+│   │   │
+│   │   ├── routes/
+│   │   │   ├── resume.py
+│   │   │   ├── screening.py
+│   │   │   ├── recommendation.py
+│   │   │   └── builder.py
+│   │   │
+│   │   ├── services/
+│   │   │   ├── resume_parser.py
+│   │   │   ├── nlp_processor.py
+│   │   │   ├── embedding_service.py
+│   │   │   └── resume_generator.py
+│   │   │
+│   │   ├── ml/
+│   │   │   ├── preprocessing.py
+│   │   │   ├── training.py
+│   │   │   ├── prediction.py
+│   │   │   └── evaluation.py
+│   │   │
+│   │   ├── database/
+│   │   │   └── mongodb.py
+│   │   │
+│   │   └── utils/
+│   │
+│   ├── models/
+│   ├── uploads/
+│   ├── requirements.txt
+│   └── .env
+│
+├── frontend/
+│   └── ...
+│
+├── datasets/
+│
+├── notebooks/
+│
+├── documentation/
+│
+└── README.md
+
+
+
+
+
+
+
+
+frontend/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+└── vite.config.js
