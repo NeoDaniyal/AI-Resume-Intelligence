@@ -5,6 +5,8 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.database.mongodb import connect_to_mongodb, close_mongodb_connection
 from app.database.collections import initialize_collections
+from app.routes.resume import router as resume_router
+
 
 
 @asynccontextmanager
@@ -33,6 +35,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+app.include_router(resume_router)
 
 @app.get("/")
 def root():
